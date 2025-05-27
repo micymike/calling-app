@@ -1,0 +1,23 @@
+# Core Dependencies
+PyQt5>=5.15.0      # GUI framework
+PyAudio>=0.2.13    # Audio processing
+numpy>=1.21.0      # Numerical operations
+requests>=2.28.0   # Network requests
+python-rtmidi>=1.4.9  # MIDI support for audio
+sounddevice>=0.4.5    # Alternative audio device handling
+
+# Testing
+pytest>=7.1.0
+pytest-cov>=4.1.0     # Coverage reporting
+pytest-mock>=3.10.0   # Mocking support
+pytest-timeout>=2.1.0  # Test timeouts
+pytest-qt>=4.2.0      # Qt testing support
+
+# Development Tools
+black>=22.3.0         # Code formatting
+pylint>=2.14.0        # Code linting
+mypy>=1.4.0           # Type checking
+isort>=5.12.0         # Import sorting
+setuptools>=45.0.0    # Build tools
+wheel>=0.38.0         # Build tools
+setuptools-scm>=6.0.0 # Version management
